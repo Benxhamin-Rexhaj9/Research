@@ -10,7 +10,7 @@ times_df = pd.read_parquet(timeseries_PATH)
 
 
 
-query = ''' change here
+query = '''
         SELECT * 
         FROM occ_df
         --WHERE condition
