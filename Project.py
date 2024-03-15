@@ -14,6 +14,7 @@ query = '''
         SELECT * 
         FROM occ_df
         --WHERE condition
+        --it worked 
         '''
 result = sqldf(query, globals())
 
