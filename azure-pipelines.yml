@@ -7,8 +7,8 @@ trigger:
 - main
 
 pool:  # Optional: Use the default pool with potential for single-agent execution
-  name: Azure Pipelines
-  vmImage: '3.236.1'
+  name: Self-HostedPool_Python
+
 
 steps:
 - task: UsePythonVersion@0
