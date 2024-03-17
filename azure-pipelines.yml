@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:  # Optional: Use the default pool with potential for single-agent execution
-  name: Default
+  name: Azure Pipelines
 
 
 steps:
