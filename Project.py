@@ -1,8 +1,8 @@
 import pandas as pd
 from pandasql import sqldf
 
-occupancy_PATH ="C:\\Users\\Benxhamin Rexhaj\\Desktop\\Kode_Labs\\occupancy.parquet"
-timeseries_PATH ="C:\\Users\\Benxhamin Rexhaj\\Desktop\\Kode_Labs\\timeseries.parquet"
+occupancy_PATH ="C:\\Users\\Benxhamin Rexhaj\\Desktop\\occupancy.parquet"
+timeseries_PATH ="C:\\Users\\Benxhamin Rexhaj\\Desktop\\timeseries.parquet"
 
 
 occ_df = pd.read_parquet(occupancy_PATH)
